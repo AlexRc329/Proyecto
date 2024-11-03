@@ -1,0 +1,77 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('../IMG/Fondo.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .login-container {
+            background-color: rgb(251 251 251 / 60%);
+            padding: 53px;
+            border-radius: 53px;
+            width: 379px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .login-container h1 {
+            margin-bottom: 40px;
+            font-size: 48px;
+            color: #000000;
+        }
+
+        .input-field {/*El fondo de color negro */
+            margin-bottom: 60px;
+            width: 100%;
+        }
+
+        .input-field input {
+            width: 94%;
+            padding: 15px;
+            font-size: 24px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .btn-login {
+            background-color: #00b910;
+            border: none;
+            padding: 18px 60px;
+            font-size: 26px;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 15px;
+            transition: background-color 0.3s;
+            width: 101%;
+        }
+
+        .btn-login:hover {
+            background-color: #e6b800;
+        }
+        .btn-re {
+            background-color: #00b910;
+            color: #fff;
+            padding: 18px 117px;
+            font-size: 26px;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            border-radius: 15px;
+            
+            transition: background-color 0.3s;
+        }
+        
+        .btn-re:hover {
+            background-color: #e6b800;
+        }
+        img{
+            width: 70%;
+        }
+        
